@@ -169,6 +169,7 @@ void saveDataInCSV(struct Store *s, int index) {
     }
     fputc('\n', stores);
   }
+  printf("Salvo com Sucesso\n");
 
   fclose(stores);
 }
